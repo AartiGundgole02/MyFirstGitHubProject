@@ -1,8 +1,8 @@
 // tests/RegisterAndDeleteAccount.spec.ts
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { SignupPage } from '../pages/SignupPage';
-import { AccountPage } from '../pages/AccountPage';
+import { HomePage } from '../../pages/HomePage';
+import { SignupPage } from '../../pages/SignupPage';
+import { AccountPage } from '../../pages/AccountPage';
 
 test.describe('AutomationExercise - User Registration Flow', () => {
 
